@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>学无止境-个人博客</title>
+<meta name="keywords" content="个人博客" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="__ROOT__/Public/css/index_moodlist.css"/>
+<link rel="stylesheet" href="__ROOT__/Public/css/moodlist.css"/>
+<script type="text/javascript" src="__ROOT__/Public/js/jquery.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+      <!--header start-->
+    <div id="header">
+      <h1>个人博客</h1>
+      <p>青春是打开了,就合不上的书。人生是踏上了，就回不了头的路，爱情是扔出了，就收不回的赌注。</p>    
+    </div>
+     <!--header end-->
+    <!--nav-->
+     <div id="nav">
+         <ul>
+         <li><a href="__ROOT__/index.php/Home/Index/index">首页</a></li>
+         <li><a href="__ROOT__/index.php/Home/About/index">关于我</a></li>
+         <li><a href="__ROOT__/index.php/Home/Moodlist/index">碎言碎语</a></li>
+         <li><a id="nava" href="__ROOT__/index.php/Home/Learn/index">技术讨论</a></li>
+         <li><a href="__ROOT__/index.php/Home/Photo/index">相册展示</a></li>
+         <li><a href="__ROOT__/index.php/Home/Dialog/index">漫生活</a></li>
+         <li><a href="__ROOT__/index.php/Home/Wish/index">留言板</a></li>
+         <div class="clear"></div>
+        </ul>
+      </div>
+       <!--nav end-->
+    <!--content start-->
+    <div id="content">
+       <!--left-->
+         <div class="left" id="learn" style="width: 100%;">
+           <div class="weizi">
+           <div class="wz_text">当前位置：<a href="#">首页</a>><h1>学无止境</h1></div>
+           </div>
+           <div class="l_content">
+           <div class="wz">
+            <h3 style="float: left; width: 80px;"><a href="__ROOT__/index.php/Home/Blog/index?classify=0" title="技术" target="blank">技术</a></h3>
+            <h3 style="float: left; width: 80px;"><a href="__ROOT__/index.php/Home/Blog/index?classify=1" title="立志" target="blank">立志</a></h3>
+            <h3 style="float: left; width: 80px;"><a href="__ROOT__/index.php/Home/Blog/index?classify=2" title="生活" target="blank">生活</a></h3>
+            <h3 style="float: left; width: 80px;"><a href="__ROOT__/index.php/Home/Blog/index?classify=3" title="箴言" target="blank">箴言</a></h3>
+            <h3 style="float: left; width: 80px;"><a href="__ROOT__/index.php/Home/Blog/index?classify=4" title="情感" target="blank">情感</a></h3>
+            <h3 style="float: left; width: 130px;"><a href="__ROOT__/index.php/Home/Blog/index?classify=5" title="感悟" target="blank">感悟</a></h3>
+           </div>
+
+            <br>
+           <volist name="info" id="vo">
+               <!--wz-->
+               <div class="wz">
+                 <dl>
+                   <dt><img src="__ROOT__/Public/images/about/s1.jpg" width="200"  height="123" alt=""></dt>
+                   <dd>
+                     <p class="dd_text_1"><span style="position: absolute; margin-top: 40px; margin-left: 18px;">{$vo.title}</span></p>
+                   <p class="dd_text_2">
+                   <span class="left author">{$vo.username}</span><span class="left sj">{$vo.createtime}</span>
+                   <span class="left fl">分类:<a href="http://localhost/blog/index.php/Home/Blog/index?classify={$vo.classify}" title="学无止境" target="blank">{$vo.classifyname}</a></span><span class="left yd"><a href="http://localhost/blog/index.php/Home/Blog/detail?id={$vo.id}" title="阅读全文" target="blank">阅读全文</a>
+                   </span>
+                    <div class="clear"></div>
+                   </p>
+                   </dd>
+                   <div class="clear"></div>
+                 </dl>
+                </div>
+               <!--wz end-->
+           </volist> 
+           
+     
+           </div>
+         </div>
+         <div class="clear"></div>
+         
+    </div>
+    <!--content end-->
+    <!--footer-->
+    <div id="footer">
+     <p>Copy@Right&nbsp&nbsp&nbsp&nbsp<a href="http://www.duanliang920.com" target="_blank">&nbsp&nbsp&nbsp&nbspyoung</a>&nbsp&nbsp&nbsp&nbsp2014/8/9-2015/9/1</p>
+    </div>
+    <!--footer end-->
+    <script type="text/javascript">jQuery(".lanmubox").slide({easing:"easeOutBounce",delayTime:400});</script>
+</body>
+</html>
+

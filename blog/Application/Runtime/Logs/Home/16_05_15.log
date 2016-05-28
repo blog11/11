@@ -1,0 +1,281 @@
+[ 2016-05-15T13:36:22+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.082901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085185s ]
+
+[ 2016-05-15T13:36:25+08:00 ] ::1 /blog/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000489s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002963s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004806s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.453698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.456100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019575s ]
+
+[ 2016-05-15T13:36:31+08:00 ] ::1 /blog/Home/Login/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008705s ]
+
+[ 2016-05-15T13:36:32+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.idealforms.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000578s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006117s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T13:36:32+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000579s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050896s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T13:36:40+08:00 ] ::1 /blog/index.php/Home/Login/commit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000580s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0585s ]
+SQL: INSERT INTO `blog_user` (`username`,`password`,`realname`,`heading`,`createtime`,`updatetime`,`identity`) VALUES ('游客79060','游客79060','游客79060','','2016-05-15 13:36:40','2016-05-15 13:36:40','1') [ RunTime:0.5206s ]
+
+[ 2016-05-15T13:36:42+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003386s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.1021s ]
+SQL: SELECT * FROM `blog_article` WHERE `state` = 1 AND `classify` = 0  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001980s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007454s ]
+
+[ 2016-05-15T17:13:50+08:00 ] ::1 /blog/index.php/Home/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.327813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002759s ]
+
+[ 2016-05-15T17:27:52+08:00 ] ::1 /blog/index.php/Home/Learn/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.295552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004588s ]
+
+[ 2016-05-15T17:27:54+08:00 ] ::1 /blog/index.php/Home/Learn/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004487s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T17:33:44+08:00 ] ::1 /blog/index.php/Home/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000692s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005163s ]
+
+[ 2016-05-15T17:33:44+08:00 ] ::1 /blog/index.php/Home/Photo/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003422s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T17:37:11+08:00 ] ::1 /blog/index.php/Home/Dialog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000890s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009170s ]
+
+[ 2016-05-15T20:58:53+08:00 ] ::1 /blog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000312s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026071s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.3471s ]
+SQL: SELECT * FROM `blog_article` WHERE `state` = 1 AND `classify` = 0  [ RunTime:0.1902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004538s ]
+
+[ 2016-05-15T20:59:04+08:00 ] ::1 /blog/index.php/Home/Index/custom_menu.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000593s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009590s ]
+ERR: 非法操作:custom_menu.xml
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T20:59:12+08:00 ] ::1 /blog/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000403s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000964s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.147616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.278901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005233s ]
+
+[ 2016-05-15T20:59:13+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.idealforms.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T20:59:14+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000258s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-15T20:59:16+08:00 ] ::1 /blog/Home/Login/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008057s ]
+

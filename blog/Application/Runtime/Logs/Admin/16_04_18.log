@@ -1,0 +1,297 @@
+[ 2016-04-18T22:18:27+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007109s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `blog_user` WHERE `username` = '游客81523' AND `identity` = 2  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 F:\PHP\WWW\blog\Application\Admin\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002266s ]
+NOTIC: [8] Undefined index: username F:\PHP\WWW\blog\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 65 行.
+NOTIC: [8] Undefined index: username F:\PHP\WWW\blog\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 149 行.
+NOTIC: [8] Undefined index: realname F:\PHP\WWW\blog\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 155 行.
+NOTIC: [8] Undefined index: createtime F:\PHP\WWW\blog\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 161 行.
+NOTIC: [8] Undefined index: state F:\PHP\WWW\blog\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 168 行.
+NOTIC: [8] Undefined index: identity F:\PHP\WWW\blog\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.832237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.834050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009110s ]
+
+[ 2016-04-18T22:18:46+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003387s ]
+
+[ 2016-04-18T22:18:57+08:00 ] ::1 /blog/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000884s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002803s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004538s ]
+
+[ 2016-04-18T22:19:32+08:00 ] ::1 /blog/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `blog_user` WHERE `username` = 'young' AND `password` = 'c33367701511b4f6020ec61ded352059' AND `identity` = 2  [ RunTime:0.0009s ]
+
+[ 2016-04-18T22:19:33+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000435s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `blog_user` WHERE `username` = 'young' AND `identity` = 2  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000965s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004193s ]
+
+[ 2016-04-18T22:19:33+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002466s ]
+
+[ 2016-04-18T22:20:05+08:00 ] ::1 /blog/index.php/Admin/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002498s ]
+
+[ 2016-04-18T22:20:34+08:00 ] ::1 /blog/index.php/Admin/Photo/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `blog_photo` [ RunTime:0.1288s ]
+SQL: SELECT * FROM `blog_photo` WHERE `state` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000545s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2016-04-18T22:20:35+08:00 ] ::1 /blog/index.php/Admin/Photo/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T22:21:06+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001746s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003386s ]
+
+[ 2016-04-18T22:21:09+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T22:21:33+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0754s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000955s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002814s ]
+
+[ 2016-04-18T22:21:34+08:00 ] ::1 /blog/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+
+[ 2016-04-18T22:22:06+08:00 ] ::1 /blog/index.php/Admin/Liuyan/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001815s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002806s ]
+
+[ 2016-04-18T22:22:07+08:00 ] ::1 /blog/Admin/Liuyan/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0007s ]
+
+[ 2016-04-18T22:22:34+08:00 ] ::1 /blog/index.php/Admin/Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000644s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001830s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003072s ]
+
+[ 2016-04-18T22:22:35+08:00 ] ::1 /blog/Admin/Permission/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `blog_user`  [ RunTime:0.0008s ]
+

@@ -1,0 +1,829 @@
+[ 2016-03-30T21:43:57+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000921s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002766s ]
+
+[ 2016-03-30T21:44:07+08:00 ] ::1 /blog/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000302s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `blog_user` WHERE `username` = 'young' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `identity` = 2  [ RunTime:0.0114s ]
+
+[ 2016-03-30T21:44:08+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003914s ]
+
+[ 2016-03-30T21:48:19+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000322s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000880s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004388s ]
+
+[ 2016-03-30T21:49:17+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000897s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004452s ]
+
+[ 2016-03-30T21:49:35+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2016-03-30T21:50:05+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000357s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000859s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001960s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003620s ]
+
+[ 2016-03-30T21:57:29+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004431s ]
+
+[ 2016-03-30T21:59:01+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000360s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000884s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001988s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005187s ]
+
+[ 2016-03-30T21:59:59+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000864s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004746s ]
+
+[ 2016-03-30T22:01:30+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004312s ]
+
+[ 2016-03-30T22:02:42+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000306s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005393s ]
+
+[ 2016-03-30T22:03:48+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000864s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005511s ]
+
+[ 2016-03-30T22:04:08+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003146s ]
+
+[ 2016-03-30T22:07:06+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000916s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004897s ]
+
+[ 2016-03-30T22:07:47+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000923s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003904s ]
+
+[ 2016-03-30T22:08:24+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000876s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003719s ]
+
+[ 2016-03-30T22:09:07+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000901s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2016-03-30T22:09:44+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002775s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004422s ]
+
+[ 2016-03-30T22:14:00+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000882s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001989s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004007s ]
+
+[ 2016-03-30T22:14:53+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000874s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005305s ]
+
+[ 2016-03-30T22:19:35+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000884s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002031s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008695s ]
+
+[ 2016-03-30T22:20:24+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000881s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001990s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003251s ]
+
+[ 2016-03-30T22:20:48+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002936s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004355s ]
+
+[ 2016-03-30T22:21:28+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002861s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004177s ]
+
+[ 2016-03-30T22:23:01+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004963s ]
+
+[ 2016-03-30T22:24:13+08:00 ] ::1 /blog/index.php/Admin/Index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+ERR: 非法操作:tables
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:26:49+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000451s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000890s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005137s ]
+
+[ 2016-03-30T22:28:19+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000359s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000882s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001979s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004932s ]
+
+[ 2016-03-30T22:33:56+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000947s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005341s ]
+
+[ 2016-03-30T22:33:56+08:00 ] ::1 /blog/index.php/Admin/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002766s ]
+
+[ 2016-03-30T22:33:57+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/js/jquery.filedrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:33:57+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/css/styles.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:34:02+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/js/script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002740s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:37:26+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004622s ]
+
+[ 2016-03-30T22:37:27+08:00 ] ::1 /blog/index.php/Admin/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000909s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003204s ]
+
+[ 2016-03-30T22:37:27+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/css/styles.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000530s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004495s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:37:27+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/js/jquery.filedrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004795s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:37:28+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/js/script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003837s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:39:32+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000899s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001998s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005764s ]
+
+[ 2016-03-30T22:39:32+08:00 ] ::1 /blog/index.php/Admin/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000412s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000915s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002775s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004337s ]
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/js/jquery.filedrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006477s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/index.php/Admin/Photo/assets/js/script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004538s ]
+ERR: 非法操作:assets
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-03-30T22:41:36+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000945s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2016-03-30T22:42:08+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000903s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005680s ]
+
+[ 2016-03-30T22:42:29+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000894s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005060s ]
+

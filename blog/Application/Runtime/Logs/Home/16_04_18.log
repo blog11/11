@@ -1,0 +1,934 @@
+[ 2016-04-18T21:37:57+08:00 ] ::1 /blog/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000267s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.360621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.361751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008600s ]
+
+[ 2016-04-18T21:37:59+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002727s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T21:37:59+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.idealforms.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T21:37:59+08:00 ] ::1 /blog/Home/Login/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003496s ]
+
+[ 2016-04-18T21:47:41+08:00 ] ::1 /blog/Home/Login/validate?rmd=0.1711867284459112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003075s ]
+
+[ 2016-04-18T21:47:43+08:00 ] ::1 /blog/Home/Login/validate?rmd=0.24869345608122828
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004187s ]
+
+[ 2016-04-18T21:47:44+08:00 ] ::1 /blog/Home/Login/validate?rmd=0.21808885548428536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2016-04-18T21:47:49+08:00 ] ::1 /blog/index.php/Home/Login/commit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004058s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.8763s ]
+SQL: INSERT INTO `blog_user` (`username`,`password`,`realname`,`heading`,`createtime`,`updatetime`,`identity`) VALUES ('游客37414','游客37414','游客37414','','2016-04-18 21:47:49','2016-04-18 21:47:49','1') [ RunTime:0.3615s ]
+
+[ 2016-04-18T21:47:50+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.1920s ]
+SQL: SELECT * FROM `blog_article` WHERE `state` = 1 AND `classify` = 0  [ RunTime:0.0379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000908s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003031s ]
+
+[ 2016-04-18T21:47:53+08:00 ] ::1 /blog/index.php/Home/Index/custom_menu.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000397s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002873s ]
+ERR: 非法操作:custom_menu.xml
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T21:48:41+08:00 ] ::1 /blog/index.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000392s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000653s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002426s ]
+
+[ 2016-04-18T21:49:21+08:00 ] ::1 /blog/index.php/Home/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000826s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2016-04-18T21:52:02+08:00 ] ::1 /blog/index.php/Home/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000678s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001809s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2016-04-18T21:52:49+08:00 ] ::1 /blog/index.php/Home/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2016-04-18T21:53:22+08:00 ] ::1 /blog/index.php/Home/Learn/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000676s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003794s ]
+
+[ 2016-04-18T21:53:23+08:00 ] ::1 /blog/index.php/Home/Learn/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T21:53:53+08:00 ] ::1 /blog/index.php/Home/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002868s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.623039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.626303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008770s ]
+
+[ 2016-04-18T21:53:54+08:00 ] ::1 /blog/index.php/Home/Photo/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T21:54:21+08:00 ] ::1 /blog/index.php/Home/Dialog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000733s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001884s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004682s ]
+
+[ 2016-04-18T21:54:53+08:00 ] ::1 /blog/index.php/Home/Dialog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000830s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009672s ]
+
+[ 2016-04-18T21:54:55+08:00 ] ::1 /blog/index.php/Home/Photo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000391s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000653s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005813s ]
+
+[ 2016-04-18T21:54:55+08:00 ] ::1 /blog/index.php/Home/Photo/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T21:54:57+08:00 ] ::1 /blog/index.php/Home/Dialog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000671s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001941s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005464s ]
+
+[ 2016-04-18T21:55:33+08:00 ] ::1 /blog/index.php/Home/Wish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000363s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.1891s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000778s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002499s ]
+
+[ 2016-04-18T21:55:37+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002543s ]
+
+[ 2016-04-18T21:59:28+08:00 ] ::1 /blog/index.php/Home/Wish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0269s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000685s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001950s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2016-04-18T21:59:33+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0116s ]
+NOTIC: [2] Missing argument 2 for Home\Model\WishModel::add(), called in F:\PHP\WWW\blog\Application\Home\Controller\WishController.class.php on line 30 and defined F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: content F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 0 F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `blog_wish` (`content`,`createtime`) VALUES (NULL,'16-04-18 21:59:33') [ RunTime:0.0959s ]
+
+[ 2016-04-18T21:59:34+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000482s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0548s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000523s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002392s ]
+
+[ 2016-04-18T22:00:51+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+
+[ 2016-04-18T22:01:11+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+
+[ 2016-04-18T22:02:18+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002512s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0138s ]
+NOTIC: [2] Missing argument 2 for Home\Model\WishModel::add(), called in F:\PHP\WWW\blog\Application\Home\Controller\WishController.class.php on line 30 and defined F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: content F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 0 F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `blog_wish` (`content`,`createtime`) VALUES (NULL,'16-04-18 22:02:18') [ RunTime:0.0672s ]
+
+[ 2016-04-18T22:02:18+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002397s ]
+
+[ 2016-04-18T22:02:35+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+
+
+
+
+
+[ 2016-04-18T22:04:37+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.3571s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000813s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004122s ]
+
+
+
+
+
+[ 2016-04-18T22:05:05+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002868s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0214s ]
+NOTIC: [2] Missing argument 2 for Home\Model\WishModel::add(), called in F:\PHP\WWW\blog\Application\Home\Controller\WishController.class.php on line 30 and defined F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: content F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 0 F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `blog_wish` (`content`,`createtime`) VALUES (NULL,'16-04-18 22:05:05') [ RunTime:0.1141s ]
+
+[ 2016-04-18T22:05:06+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000537s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2016-04-18T22:07:07+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003244s ]
+
+[ 2016-04-18T22:07:11+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+
+[ 2016-04-18T22:10:21+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2016-04-18T22:10:25+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0275s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\PHP\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Illegal string offset 'table' F:\PHP\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Illegal string offset 'model' F:\PHP\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+NOTIC: [2] Illegal string offset 'model' F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 800 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+NOTIC: [2] Illegal string offset 'table' F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 822 行.
+ERR: 1146:Table 'blog.w' doesn't exist
+ [ SQL语句 ] : INSERT INTO `W` () VALUES ()
+ERR: 1146:Table 'blog.w' doesn't exist
+ [ SQL语句 ] : INSERT INTO `W` () VALUES ()
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php:223) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Library\Think\Db\Driver.class.php:223) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T22:12:42+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000526s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2016-04-18T22:12:45+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000529s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0179s ]
+
+[ 2016-04-18T22:14:16+08:00 ] ::1 /blog/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000646s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002483s ]
+
+[ 2016-04-18T22:14:17+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.idealforms.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000368s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T22:14:17+08:00 ] ::1 /blog/index.php/Home/Login/__ROOT/Public/css/jquery.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000413s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004526s ]
+ERR: 非法操作:__ROOT
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T22:14:17+08:00 ] ::1 /blog/Home/Login/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004216s ]
+
+[ 2016-04-18T22:14:20+08:00 ] ::1 /blog/index.php/Home/Login/commit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0595s ]
+SQL: INSERT INTO `blog_user` (`username`,`password`,`realname`,`heading`,`createtime`,`updatetime`,`identity`) VALUES ('游客81523','游客81523','游客81523','','2016-04-18 22:14:19','2016-04-18 22:14:19','1') [ RunTime:0.2696s ]
+
+[ 2016-04-18T22:14:20+08:00 ] ::1 /blog/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `blog_article` WHERE `state` = 1 AND `classify` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2016-04-18T22:14:22+08:00 ] ::1 /blog/index.php/Home/Index/custom_menu.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+ERR: 非法操作:custom_menu.xml
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-04-18T22:14:23+08:00 ] ::1 /blog/index.php/Home/Wish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001879s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004174s ]
+
+[ 2016-04-18T22:14:27+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: test F:\PHP\WWW\blog\Application\Home\Controller\WishController.class.php 第 26 行.
+
+[ 2016-04-18T22:14:41+08:00 ] ::1 /blog/index.php/Home/Wish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0579s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003497s ]
+
+[ 2016-04-18T22:14:45+08:00 ] ::1 /blog/index.php/Home/Wish/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0072s ]
+SQL: INSERT INTO `blog_wish` (`author`,`content`,`createtime`,`isshow`) VALUES ('游客81523','sasa[抓狂]','16-04-18 22:14:45','0') [ RunTime:0.0741s ]
+
+[ 2016-04-18T22:14:45+08:00 ] ::1 /blog/index.php/Home/Wish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+NOTIC: [2048] Declaration of Home\Model\WishModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Home\Model\WishModel::select() should be compatible with Think\Model::select($options = Array) F:\PHP\WWW\blog\Application\Home\Model\WishModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002505s ]
+
+[ 2016-04-18T22:18:47+08:00 ] ::1 /blog/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004560s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0705s ]
+SQL: SELECT * FROM `blog_article` WHERE `state` = 1 AND `classify` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000822s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001948s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002696s ]
+

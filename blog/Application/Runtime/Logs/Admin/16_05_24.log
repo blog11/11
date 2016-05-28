@@ -1,0 +1,993 @@
+[ 2016-05-24T12:43:32+08:00 ] ::1 /blog/index.php/Admin/Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000643s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031083s ]
+
+[ 2016-05-24T12:44:07+08:00 ] ::1 /blog/index.php/Admin/Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000632s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001734s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003042s ]
+
+[ 2016-05-24T12:44:08+08:00 ] ::1 /blog/index.php/Admin/Permission/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `blog_user`  [ RunTime:0.0008s ]
+
+[ 2016-05-24T12:51:14+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006052s ]
+
+[ 2016-05-24T12:51:15+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000907s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002566s ]
+
+[ 2016-05-24T12:51:18+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000353s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002553s ]
+
+[ 2016-05-24T12:51:18+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T12:58:55+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000524s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005431s ]
+
+[ 2016-05-24T12:58:55+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2016-05-24T12:58:59+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000623s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002642s ]
+
+[ 2016-05-24T12:58:59+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T12:59:58+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000734s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001821s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002855s ]
+
+[ 2016-05-24T12:59:59+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:00:58+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000966s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004476s ]
+
+[ 2016-05-24T13:00:59+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002931s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000497s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001603s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2016-05-24T13:01:02+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000608s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001692s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002356s ]
+
+[ 2016-05-24T13:01:02+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:01:17+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003204s ]
+
+[ 2016-05-24T13:01:18+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002537s ]
+
+[ 2016-05-24T13:01:21+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000770s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2016-05-24T13:01:21+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:02:48+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:03:59+08:00 ] ::1 /blog/index.php/Admin/Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000633s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002827s ]
+
+[ 2016-05-24T13:03:59+08:00 ] ::1 /blog/index.php/Admin/Permission/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `blog_user`  [ RunTime:0.0008s ]
+
+[ 2016-05-24T13:04:42+08:00 ] ::1 /blog/index.php/Admin/Permission/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000385s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000632s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002779s ]
+
+[ 2016-05-24T13:04:42+08:00 ] ::1 /blog/index.php/Admin/Permission/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `blog_user`  [ RunTime:0.0010s ]
+
+[ 2016-05-24T13:04:49+08:00 ] ::1 /blog/index.php/Admin/Liuyan/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004070s ]
+
+[ 2016-05-24T13:04:49+08:00 ] ::1 /blog/index.php/Admin/Liuyan/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0007s ]
+
+[ 2016-05-24T13:11:09+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:12:30+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0013s ]
+
+[ 2016-05-24T13:20:03+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003605s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0119s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0009s ]
+
+[ 2016-05-24T13:20:34+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0113s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:20:40+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2016-05-24T13:20:40+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002526s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0424s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:21:40+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000620s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001782s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2016-05-24T13:21:40+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0111s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:22:09+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000623s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2016-05-24T13:22:09+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0113s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:22:38+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001817s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002808s ]
+
+[ 2016-05-24T13:22:39+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0110s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+
+[ 2016-05-24T13:27:30+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0629s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+
+[ 2016-05-24T13:27:36+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000341s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0116s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Undefined index: content F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+
+[ 2016-05-24T13:28:04+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000359s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0113s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\PHP\WWW\blog\Application\Admin\Controller\ArticleController.class.php 第 17 行.
+
+[ 2016-05-24T13:28:49+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0112s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0009s ]
+
+[ 2016-05-24T13:29:09+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0116s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+
+[ 2016-05-24T13:30:34+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0413s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+
+[ 2016-05-24T13:30:40+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002631s ]
+
+[ 2016-05-24T13:30:40+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0760s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0021s ]
+
+[ 2016-05-24T13:31:10+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2016-05-24T13:31:10+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000304s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0105s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+
+[ 2016-05-24T13:31:54+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000958s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.474872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.477689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015639s ]
+
+[ 2016-05-24T13:31:54+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000403s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000885s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002871s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002847s ]
+
+[ 2016-05-24T13:31:58+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000344s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000614s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2016-05-24T13:31:58+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0112s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0008s ]
+
+[ 2016-05-24T13:32:28+08:00 ] ::1 /blog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000330s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000610s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2016-05-24T13:32:29+08:00 ] ::1 /blog/index.php/Admin/Article/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000344s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0884s ]
+SQL: SELECT blog_article.*,blog_user.username FROM `blog_article` INNER JOIN blog_user ON blog_article.user_id=blog_user.id   [ RunTime:0.0011s ]
+
+[ 2016-05-24T13:39:28+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005035s ]
+
+[ 2016-05-24T13:39:29+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000958s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003207s ]
+

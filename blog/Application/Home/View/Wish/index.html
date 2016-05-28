@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>许愿墙</title>
+	<link rel="stylesheet" href="__ROOT__/Public/Css/wish.css" />
+	<script type="text/javascript" src='__ROOT__/Public/Js/jquery.min.js'></script>
+	<script type="text/javascript" src='__ROOT__/Public/Js/wish.js'></script>
+</head>
+<body>
+	<div id='top'>
+		<span id='send'></span>
+	</div>
+	<div id='main'>
+		<volist name="result" id="vo">
+			<dl class='paper a1'>
+				<dt>
+					<span class='username'>{$vo.author}</span>
+					<span class="num">No.{$vo.id}</span>
+				</dt>
+				<dd class="content">{$vo.content}</dd>
+				<dd class='bottom'>
+					<span class='time'>{$vo.createtime}</span>
+					<a href="" class='close'></a>
+				</dd>
+			</dl>
+		</volist>
+	</div>
+
+	<div id='send-form'>
+		<p class='title'><span>许下你的愿望</span><a href="" id='close'></a></p>
+		<form action="__ROOT__/index.php/Home/Wish/create" name='wish' method="post">
+			<p>
+				<label for="content">愿望：(您还可以输入&nbsp;<span id='font-num'>50</span>&nbsp;个字)</label>
+				<textarea name="content" id='content'></textarea>
+				<div id='phiz'>
+					<img src="__ROOT__/Public/Images/wish/phiz/zhuakuang.gif" alt="抓狂" />
+					<img src="__ROOT__/Public/Images/wish/phiz/baobao.gif" alt="抱抱" />
+					<img src="__ROOT__/Public/Images/wish/phiz/haixiu.gif" alt="害羞" />
+					<img src="__ROOT__/Public/Images/wish/phiz/ku.gif" alt="酷" />
+					<img src="__ROOT__/Public/Images/wish/phiz/xixi.gif" alt="嘻嘻" />
+					<img src="__ROOT__/Public/Images/wish/phiz/taikaixin.gif" alt="太开心" />
+					<img src="__ROOT__/Public/Images/wish/phiz/touxiao.gif" alt="偷笑" />
+					<img src="__ROOT__/Public/Images/wish/phiz/qian.gif" alt="钱" />
+					<img src="__ROOT__/Public/Images/wish/phiz/huaxin.gif" alt="花心" />
+					<img src="__ROOT__/Public/Images/wish/phiz/jiyan.gif" alt="挤眼" />
+				</div>
+			</p>
+			<input type="submit" id="send-btn" value="" style="width:120px;height:50px"/>
+		</form>
+	</div>
+<!--[if IE 6]>
+    <script type="text/javascript" src="__ROOT__/Public/Js/iepng.js"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('#send,#close,.close','background');
+    </script>
+<![endif]-->
+</body>
+</html>

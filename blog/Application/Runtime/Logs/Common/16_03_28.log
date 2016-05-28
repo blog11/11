@@ -1,0 +1,42 @@
+[ 2016-03-28T21:16:17+08:00 ] ::1 /blog/Public/css/moodelist.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002030s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-28T21:18:30+08:00 ] ::1 /blog/Public/css/moodelist.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000349s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-28T21:20:53+08:00 ] ::1 /blog/Public/css/moodelist.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-28T21:21:16+08:00 ] ::1 /blog/Public/css/moodelist.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-28T21:24:08+08:00 ] ::1 /blog/Public/images/weizi.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-28T21:33:26+08:00 ] ::1 /blog/Public/images/weizi.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-28T22:09:42+08:00 ] ::1 /blog/Public/index.php/Dialog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+ERR: 无法加载模块:Public
+

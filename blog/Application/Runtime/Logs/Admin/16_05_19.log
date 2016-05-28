@@ -1,0 +1,90 @@
+[ 2016-05-19T16:52:54+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000377s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000876s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003313s ]
+
+[ 2016-05-19T16:53:08+08:00 ] ::1 /blog/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `blog_user` WHERE `username` = 'young' AND `password` = 'c33367701511b4f6020ec61ded352059' AND `identity` = 2  [ RunTime:0.0007s ]
+
+[ 2016-05-19T16:53:10+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000338s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000996s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.546017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.549438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003829s ]
+
+[ 2016-05-19T16:53:12+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000913s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2016-05-19T17:16:07+08:00 ] ::1 /blog/index.php/Admin/Wish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004117s ]
+

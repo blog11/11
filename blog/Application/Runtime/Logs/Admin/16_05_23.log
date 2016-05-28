@@ -1,0 +1,1359 @@
+[ 2016-05-23T16:47:28+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000744s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003934s ]
+
+[ 2016-05-23T16:47:39+08:00 ] ::1 /blog/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004116s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `blog_user` WHERE `username` = 'young' AND `password` = 'c33367701511b4f6020ec61ded352059' AND `identity` = 2  [ RunTime:0.0008s ]
+
+[ 2016-05-23T16:47:40+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.529472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.532006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003565s ]
+
+[ 2016-05-23T16:47:42+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003172s ]
+
+[ 2016-05-23T16:48:05+08:00 ] ::1 /blog/index.php/Admin/Photo/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003487s ]
+SQL: SHOW COLUMNS FROM `blog_photo` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `blog_photo` WHERE `state` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002476s ]
+
+[ 2016-05-23T16:48:06+08:00 ] ::1 /blog/index.php/Admin/Photo/__ROOT_/Public/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+ERR: 非法操作:__ROOT_
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:48:11+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000261s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001649s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004891s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.234357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002716s ]
+
+[ 2016-05-23T16:48:52+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000873s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002718s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004069s ]
+
+[ 2016-05-23T16:48:53+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003331s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:48:56+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001780s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002531s ]
+
+[ 2016-05-23T16:50:03+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+
+[ 2016-05-23T16:51:02+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000990s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004952s ]
+
+[ 2016-05-23T16:51:02+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002948s ]
+
+[ 2016-05-23T16:51:06+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003919s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000611s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001733s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002833s ]
+
+[ 2016-05-23T16:53:07+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000978s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005319s ]
+
+[ 2016-05-23T16:53:08+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000653s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001929s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2016-05-23T16:53:10+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2016-05-23T16:53:11+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0806s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0016s ]
+
+[ 2016-05-23T16:53:25+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000351s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002786s ]
+
+[ 2016-05-23T16:53:26+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003690s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:53:29+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:54:18+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000375s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004452s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:54:20+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003823s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:54:34+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004159s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:54:37+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000963s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004036s ]
+
+[ 2016-05-23T16:54:38+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004719s ]
+
+[ 2016-05-23T16:54:42+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002738s ]
+
+[ 2016-05-23T16:54:43+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:54:45+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:55:01+08:00 ] ::1 /blog/index.php/Admin/Moodlist/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\PHP\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0147s ]
+SQL: INSERT INTO `blog_moodlist` (`imgpath`,`mood`,`createtime`) VALUES ('146399370039151.jpg','我的心情好紧张啊','2016-05-23 16:55:00') [ RunTime:0.1082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003706s ]
+
+[ 2016-05-23T16:55:03+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000694s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001930s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003430s ]
+
+[ 2016-05-23T16:55:03+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:55:05+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004308s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004447s ]
+
+[ 2016-05-23T16:55:06+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:55:18+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003673s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003474s ]
+
+[ 2016-05-23T16:55:18+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000322s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005165s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:55:21+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000334s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003478s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:55:27+08:00 ] ::1 /blog/index.php/Admin/Moodlist/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003101s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\PHP\WWW\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0124s ]
+SQL: INSERT INTO `blog_moodlist` (`imgpath`,`mood`,`createtime`) VALUES ('146399372692121.jpg','dsdasdsadasd','2016-05-23 16:55:26') [ RunTime:0.0711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003240s ]
+
+[ 2016-05-23T16:55:29+08:00 ] ::1 /blog/index.php/Admin/Moodlist/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003408s ]
+
+[ 2016-05-23T16:55:29+08:00 ] ::1 /blog/index.php/Admin/Moodlist/www.example.com/demo.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+ERR: 非法操作:www.example.com
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\PHP\WWW\blog\ThinkPHP\Common\functions.php:102) F:\PHP\WWW\blog\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-05-23T16:55:31+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001708s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002736s ]
+
+[ 2016-05-23T16:55:32+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:56:03+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003572s ]
+
+[ 2016-05-23T16:56:04+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003610s ]
+
+[ 2016-05-23T16:56:08+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003326s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2016-05-23T16:56:08+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+
+[ 2016-05-23T16:56:20+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000964s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005409s ]
+
+[ 2016-05-23T16:56:21+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003989s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002482s ]
+
+[ 2016-05-23T16:56:23+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000466s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001740s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002313s ]
+
+[ 2016-05-23T16:56:24+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+
+[ 2016-05-23T16:56:42+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000970s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004632s ]
+
+[ 2016-05-23T16:56:42+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002688s ]
+
+[ 2016-05-23T16:56:45+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000327s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002853s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001814s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2016-05-23T16:56:45+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000440s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:56:57+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000970s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004662s ]
+
+[ 2016-05-23T16:56:58+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000509s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002493s ]
+
+[ 2016-05-23T16:57:01+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000672s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002448s ]
+
+[ 2016-05-23T16:57:02+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:57:18+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000315s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003805s ]
+
+[ 2016-05-23T16:57:18+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000721s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002952s ]
+
+[ 2016-05-23T16:57:20+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007592s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001754s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004595s ]
+
+[ 2016-05-23T16:57:21+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:57:36+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000966s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005269s ]
+
+[ 2016-05-23T16:57:36+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000497s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003004s ]
+
+[ 2016-05-23T16:57:38+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000638s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002763s ]
+
+[ 2016-05-23T16:57:39+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:57:51+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003746s ]
+
+[ 2016-05-23T16:57:52+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000496s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002890s ]
+
+[ 2016-05-23T16:57:55+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000341s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004365s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002688s ]
+
+[ 2016-05-23T16:57:56+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000293s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0006s ]
+
+[ 2016-05-23T16:58:06+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000973s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004528s ]
+
+[ 2016-05-23T16:58:07+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000496s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002523s ]
+
+[ 2016-05-23T16:58:23+08:00 ] ::1 /blog/index.php/Admin/Moodlist/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001771s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2016-05-23T16:58:24+08:00 ] ::1 /blog/index.php/Admin/Moodlist/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000302s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `blog_moodlist` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `blog_moodlist`  [ RunTime:0.0007s ]
+
+[ 2016-05-23T16:58:43+08:00 ] ::1 /blog/index.php/Admin/Liuyan/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000332s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000790s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003517s ]
+
+[ 2016-05-23T16:59:14+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005016s ]
+
+[ 2016-05-23T16:59:14+08:00 ] ::1 /blog/index.php/Admin/Welcome/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2016-05-23T16:59:17+08:00 ] ::1 /blog/index.php/Admin/Liuyan/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000376s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000958s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2016-05-23T16:59:17+08:00 ] ::1 /blog/index.php/Admin/Liuyan/data_init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SHOW COLUMNS FROM `blog_wish` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `blog_wish`  [ RunTime:0.0119s ]
+

@@ -1,0 +1,48 @@
+[ 2016-03-30T21:43:48+08:00 ] ::1 /blog/index.php/Admim/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000343s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+ERR: 无法加载模块:Admim
+
+[ 2016-03-30T22:00:24+08:00 ] ::1 /blog/Public/css/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000528s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003637s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/Public/img/background_tile_2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003182s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/Public/img/blue_line.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000371s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003310s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/Public/img/background_tile_1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000366s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003698s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/Public/img/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003403s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/Public/img/background_tile_3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000467s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003821s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:39:33+08:00 ] ::1 /blog/Public/img/tzine.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+ERR: 无法加载模块:Public
+
